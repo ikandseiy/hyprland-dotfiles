@@ -1,0 +1,1 @@
+Hyprland arch dots
