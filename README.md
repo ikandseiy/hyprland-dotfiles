@@ -1,22 +1,22 @@
-```bash
+DEPENDENCIES:
+
 hyprland # tiling manager
+vim (neovim) # cli editor
 firefox # browser
-sddm-git # Login manager
 dunst # Notification
 sddm-git # Login manager
 alacritty # Terminal
-dunst # Notification
-waybar-hyprland-git # Top Bar
+waybar # Top Bar
 brightnessctl # Screen brightness command line utils
 pavucontrol # GUI pulseaudio controller
 pamixer # Pulseaudio command line utils
-pulseaudio # Audio
-pulseaudio-bluetooth # bluetooth audio support
+pipewire # Audio
+pipewire-pulse # bluetooth audio support
+wireplumber # automatice choose profile
 hyprpaper # Wallpaper
 swaylock # lockscreen
 grim # screenshot - Screenshot utility for Wayland
-slurp # screenshot - select a region from Wayland compositors
-rofi-lbonn-wayland-git # application launcher
+rofi-lbonn-wayland # application launcher
 cliphist # clipboard
 nautilus # File explorer
 gvfs # Show Trash, Computer and other devices in thunar
@@ -28,7 +28,7 @@ qt5-wayland # Hyprland Need
 qt5ct # Hyprland Need
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland-git # Screen Sharing
-zsh # replace bash
+zsh # replace bash (also install oh-my-zsh)
 vscode # visual studio code
 bluez && bluez-utilus # bluetooth
-broadcom-wl-dkms # broadcom wireless driver (enable wifi - sudo modprobe brcmfmac)
+broadcom-wl-dkms # (optional - for broadcom adapter) broadcom wireless driver (enable wifi - sudo modprobe brcmfmac)
