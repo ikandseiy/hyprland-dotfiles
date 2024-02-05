@@ -28,6 +28,7 @@ qt5-wayland # Hyprland Need
 qt5ct # Hyprland Need
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland-git # Screen Sharing
+ttf-meslo-nerd # Nerd Font
 
 Optional:
   zsh # replace bash (also install oh-my-zsh)
