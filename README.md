@@ -1,4 +1,5 @@
 ## Dependencies
+```bash
 hyprland # tiling manager
 vim (neovim) # cli editor
 firefox # browser
@@ -29,5 +30,6 @@ xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland-git # Screen Sharing
 zsh # replace bash (also install oh-my-zsh)
 vscode # visual studio code
-bluez && bluez-utilus # bluetooth
+bluez # bluetooth
 broadcom-wl-dkms # (optional - for broadcom adapter) broadcom wireless driver (enable wifi - sudo modprobe brcmfmac)
+```
