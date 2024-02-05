@@ -28,8 +28,12 @@ qt5-wayland # Hyprland Need
 qt5ct # Hyprland Need
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland-git # Screen Sharing
-zsh # replace bash (also install oh-my-zsh)
-vscode # visual studio code
-bluez # bluetooth
-broadcom-wl-dkms # (optional - for broadcom adapter) broadcom wireless driver (enable wifi - sudo modprobe brcmfmac)
+
+Optional:
+  zsh # replace bash (also install oh-my-zsh)
+  bluez # bluetooth
+  broadcom-wl-dkms # broadcom wireless driver (enable wifi - $sudo modprobe brcmfmac)
+  vscode # visual studio code
+  telegram-desktop # telegram
+
 ```
