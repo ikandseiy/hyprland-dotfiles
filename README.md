@@ -1,5 +1,4 @@
-DEPENDENCIES:
-
+## Dependencies
 hyprland # tiling manager
 vim (neovim) # cli editor
 firefox # browser
