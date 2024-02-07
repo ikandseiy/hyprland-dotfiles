@@ -2,6 +2,7 @@
 ```bash
 hyprland # tiling manager
 vim (neovim) # cli editor
+zsh # replace bash (also install oh-my-zsh)
 firefox # browser
 dunst # Notification
 sddm-git # Login manager
@@ -29,12 +30,13 @@ qt5ct # Hyprland Need
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland-git # Screen Sharing
 ttf-meslo-nerd # Nerd Font
+waybar-updates # Updates notification
 
 Optional:
-  zsh # replace bash (also install oh-my-zsh)
   bluez # bluetooth
   broadcom-wl-dkms # broadcom wireless driver (enable wifi - $sudo modprobe brcmfmac)
   vscode # visual studio code
   telegram-desktop # telegram
+  qbittorrent # torrent client
 
 ```
