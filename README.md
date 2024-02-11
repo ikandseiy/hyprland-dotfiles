@@ -15,6 +15,7 @@ dunst # Notification
 sddm-git # Login manager
 alacritty # Terminal
 waybar # Top Bar
+waybar-updates # Updates notification
 fastfetch # cli system info
 brightnessctl # Screen brightness command line utils
 pavucontrol # GUI pulseaudio controller
@@ -30,7 +31,7 @@ cliphist # clipboard
 nautilus # File explorer
 gvfs # Show Trash, Computer and other devices in thunar
 gtk4 # Necessary for Chrome to use Fcitx5
-sudo pacman -S $(pacman -Ssq noto-fonts) # fotns
+Nerd Fonts # Pack fonts " sudo pacman -S $(pacman -Ssq 'noto-fonts-*') "
 gnome-keyring # Store secrets, passwords, keys, certificates
 polkit-kde-agent # Authentication Agent
 qt6-wayland # Hyprland Need
@@ -38,11 +39,10 @@ qt5-wayland # Hyprland Need
 qt5ct # Hyprland Need
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland-git # Screen Sharing
-waybar-updates # Updates notification
 tlp # power managment
 tlpui # GUI for tlp
 Thermald #Intel Only (sudo systemctl enable --now thermald)
-nerd-fonts # Pack fonts - sudo pacman -S $(pacman -Ssq 'noto-fonts-*')
+
 
 Optional:
   broadcom-wl-dkms # broadcom wireless driver (enable wifi - $sudo modprobe brcmfmac)
