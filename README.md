@@ -5,22 +5,23 @@ https://www.reddit.com/r/archlinux/comments/rz6294/arch_linux_laptop_optimizatio
 ## App list
 ```bash
 hyprland # tiling manager
+hyprpaper # Wallpaper
 vim (neovim) # cli editor
 zsh # replace bash (also install oh-my-zsh)
-intel-ucode # microcode for intel laptop
+intel-ucode/amd-ucode # microcode for intel/amd laptop
 bluez # bluetooth
 firefox # browser
 dunst # Notification
 sddm-git # Login manager
 alacritty # Terminal
 waybar # Top Bar
+fastfetch # cli system info
 brightnessctl # Screen brightness command line utils
 pavucontrol # GUI pulseaudio controller
 pamixer # Pulseaudio command line utils
 pipewire # Audio
 pipewire-pulse # bluetooth audio support
 wireplumber # automatice choose profile
-hyprpaper # Wallpaper
 swaylock # lockscreen
 grim # screenshot - Screenshot utility for Wayland
 slurp # select region for grim
@@ -38,10 +39,14 @@ qt5ct # Hyprland Need
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland-git # Screen Sharing
 waybar-updates # Updates notification
+tlp # power managment
+tlpui # GUI for tlp
+Thermald #Intel Only (sudo systemctl enable --now thermald)
+nerd-fonts # Pack fonts - sudo pacman -S $(pacman -Ssq 'noto-fonts-*')
 
 Optional:
   broadcom-wl-dkms # broadcom wireless driver (enable wifi - $sudo modprobe brcmfmac)
-  vscode # visual studio code
+  visual-studio-code-bin # visual studio code
   telegram-desktop # telegram
   qbittorrent # torrent client
 
