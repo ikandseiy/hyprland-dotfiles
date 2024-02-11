@@ -49,5 +49,6 @@ Optional:
   visual-studio-code-bin # visual studio code
   telegram-desktop # telegram
   qbittorrent # torrent client
+  duf # cli disk free space utility
 
 ```
