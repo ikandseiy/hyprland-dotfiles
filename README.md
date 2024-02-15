@@ -13,12 +13,19 @@ qt5-wayland # Hyprland Need
 qt6-wayland # Hyprland Need
 qt5ct # Hyprland Need
 qt6ct # Hyprland Need
+gvfs # Show Trash, Computer and other devices in thunar
+gtk4 # Necessary for Chrome to use Fcitx5
+nerd fonts # Pack fonts " sudo pacman -S $(pacman -Ssq 'noto-fonts-*') "
+gnome-keyring # Store secrets, passwords, keys, certificates
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland-git # Screen Sharing
+cava # Audio visualizer
 intel-ucode/amd-ucode # Microcode for intel/amd laptop
 bluez # Mluetooth utility
 firefox # Browser
 dunst # Notification
+nautilus # File explorer
+ranger # Cli file explorer
 sddm-git # Login manager
 alacritty/kitty/wezterm # Terminal
 waybar # Top Bar
@@ -36,15 +43,8 @@ grim # Screenshot utility for Wayland
 slurp # Select region for grim
 rofi-lbonn-wayland # Application launcher
 cliphist # Clipboard
-nautilus # File explorer
-ranger # Cli file explorer
-gvfs # Show Trash, Computer and other devices in thunar
-gtk4 # Necessary for Chrome to use Fcitx5
-Nerd Fonts # Pack fonts " sudo pacman -S $(pacman -Ssq 'noto-fonts-*') "
-gnome-keyring # Store secrets, passwords, keys, certificates
 tlp # Power managment
 tlpui # GUI for tlp
-Thermald # Intel Only (sudo systemctl enable --now thermald)
 
 
 Optional:
@@ -52,6 +52,11 @@ Optional:
   telegram-desktop # Telegram
   qbittorrent # Torrent client
   duf # Cli disk free space utility
+  filelight # qt gui disk space utility
   intel-media-driver # Driver for intel
-
+  Thermald # Intel Only (sudo systemctl enable --now thermald)
+  htop # Cli monitoring utility
+  qping # replacement ping
+  eza # replacement ls
+  
 ```
