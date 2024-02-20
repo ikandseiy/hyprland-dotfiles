@@ -15,7 +15,8 @@ qt5ct # Hyprland Need
 qt6ct # Hyprland Need
 gvfs # Show Trash, Computer and other devices in thunar
 gtk4 # Necessary for Chrome to use Fcitx5
-nerd fonts # Pack fonts " sudo pacman -S $(pacman -Ssq 'noto-fonts-*') "
+noto-fonts # Pack fonts " sudo pacman -S $(pacman -Ssq 'noto-fonts-*') "
+nerd-fonts # Another pack fonts
 gnome-keyring # Store secrets, passwords, keys, certificates
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland-git # Screen Sharing
