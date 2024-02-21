@@ -6,6 +6,7 @@ https://www.reddit.com/r/archlinux/comments/rz6294/arch_linux_laptop_optimizatio
 ```bash
 hyprland # Tiling manager
 hyprpaper # Wallpaper
+intel-ucode/amd-ucode # Microcode for intel/amd laptop
 vim (neovim) # Cli editor
 zsh # Replace bash (also install oh-my-zsh)
 polkit-kde-agent # Authentication Agent
@@ -19,13 +20,13 @@ noto-fonts # Pack fonts " sudo pacman -S $(pacman -Ssq 'noto-fonts-*') "
 nerd-fonts # Another pack fonts
 gnome-keyring # Store secrets, passwords, keys, certificates
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
-xdg-desktop-portal-hyprland-git # Screen Sharing
+xdg-desktop-portal-hyprland # Screen Sharing
 cava # Audio visualizer
-intel-ucode/amd-ucode # Microcode for intel/amd laptop
 bluez # Mluetooth utility
 firefox # Browser
 dunst # Notification
 nautilus # File explorer
+loupe # image viewer
 ranger # Cli file explorer
 sddm-git # Login manager
 alacritty/kitty/wezterm # Terminal
@@ -37,7 +38,6 @@ pavucontrol # GUI pulseaudio controller
 pamixer # Pulseaudio command line utils
 pipewire # Audio
 pipewire-pulse # Bluetooth audio support
-easyeffects # Equalizer and auto volume and many other plugins for PipeWire
 wireplumber # Automatice choose profile
 swaylock # Lockscreen
 grim # Screenshot utility for Wayland
@@ -55,7 +55,6 @@ Optional:
   duf # Cli disk free space utility
   filelight # qt gui disk space utility
   intel-media-driver # Driver for intel
-  Thermald # Intel Only (sudo systemctl enable --now thermald)
   htop # Cli monitoring utility
   qping # replacement ping
   eza # replacement ls
