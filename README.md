@@ -1,3 +1,8 @@
+# My ArchLinux&Hyprland dotfiles
+![preview.png](assets/preview.png)
+
+![preview2.png](assets/preview2.png)
+
 ## App list
 ```bash
 hyprland # Tiling manager
