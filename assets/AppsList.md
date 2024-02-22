@@ -2,7 +2,7 @@
 ```bash
 hyprland # Tiling manager
 hyprpaper # Wallpaper
-neovim # Cli editor
+neovim (NvChad) # Cli editor
 neovim-qt # Gui version neovim
 zsh # Replace bash (also install oh-my-zsh)
 polkit-kde-agent # Authentication Agent
