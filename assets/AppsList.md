@@ -1,4 +1,4 @@
-## App list
+## Apps list
 ```bash
 hyprland # Tiling manager
 hyprpaper # Wallpaper
@@ -40,20 +40,17 @@ grim # Screenshot utility for Wayland
 slurp # Select region for grim
 rofi-lbonn-wayland # Application launcher
 cliphist # Clipboard
-
-
-Optional:
-  tlp # Power managment
-  tlpui # GUI for tlp
-  intel-ucode/amd-ucode # Microcode for intel/amd laptop
-  visual-studio-code-bin # Visual studio code
-  telegram-desktop # Telegram
-  qbittorrent # Torrent client
-  duf # Cli disk free space utility
-  filelight # qt gui disk space utility
-  intel-media-driver # Driver for intel
-  htop # Cli monitoring utility
-  qping # replacement ping
-  eza # replacement ls
+tlp # Power managment
+tlpui # GUI for tlp
+intel-ucode/amd-ucode # Microcode for intel/amd laptop
+visual-studio-code-bin # Visual studio code
+telegram-desktop # Telegram
+qbittorrent # Torrent client
+duf # Cli disk free space utility
+filelight # qt gui disk space utility
+intel-media-driver # Driver for intel
+htop # Cli monitoring utility
+qping # replacement ping
+eza # replacement ls
   
 ```
