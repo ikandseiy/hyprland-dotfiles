@@ -1,4 +1,5 @@
-# My ArchLinux&Hyprland dotfiles
+<h1 align="center">Arch Linux&Hyprland</h1>
+
 ![preview.png](assets/preview.png)
 
 ![preview2.png](assets/preview2.png)
