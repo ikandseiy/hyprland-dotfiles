@@ -1,0 +1,15 @@
+# tokyo-night-storm(update)
+[colors]
+foreground = '#D7D7FF' 
+background = '#24283b' 
+cursor_bg = '#c0caf5'
+cursor_border = '#c0caf5'
+cursor_fg = '#1d202f'
+selection_fg = '#D7D7FF'
+selection_bg = '#403c64'
+
+ansi = ['#1d202f','#ff757f','#ba8aff','#ffc777','#ad8ee6','#ecb2f0','#2df4c0','#a9b1d6']
+brights = ['#414868','#f78b92','#cca7ff','#fcce8b','#bb9af7','#ebc5ed','#4ff0c6','#c0caf5']
+
+
+
