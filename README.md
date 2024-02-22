@@ -7,8 +7,8 @@
 ```bash
 hyprland # Tiling manager
 hyprpaper # Wallpaper
-intel-ucode/amd-ucode # Microcode for intel/amd laptop
-vim (neovim) # Cli editor
+neovim # Cli editor
+neovim-qt # Gui version neovim
 zsh # Replace bash (also install oh-my-zsh)
 polkit-kde-agent # Authentication Agent
 qt5-wayland # Hyprland Need
@@ -23,14 +23,14 @@ gnome-keyring # Store secrets, passwords, keys, certificates
 xdg-desktop-portal-gtk # Chrome needed, choose file & upload something
 xdg-desktop-portal-hyprland # Screen Sharing
 cava # Audio visualizer
-bluez # Mluetooth utility
+bluez # Bluetooth utility
 firefox # Browser
 dunst # Notification
 nautilus # File explorer
-loupe # image viewer
+loupe # Image viewer
 ranger # Cli file explorer
 sddm-git # Login manager
-alacritty/kitty/wezterm # Terminal
+wezterm/kitty # Terminal
 waybar # Top Bar
 waybar-updates # Updates notification
 fastfetch # Cli system info
@@ -45,11 +45,12 @@ grim # Screenshot utility for Wayland
 slurp # Select region for grim
 rofi-lbonn-wayland # Application launcher
 cliphist # Clipboard
-tlp # Power managment
-tlpui # GUI for tlp
 
 
 Optional:
+  tlp # Power managment
+  tlpui # GUI for tlp
+  intel-ucode/amd-ucode # Microcode for intel/amd laptop
   visual-studio-code-bin # Visual studio code
   telegram-desktop # Telegram
   qbittorrent # Torrent client
