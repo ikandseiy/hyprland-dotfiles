@@ -28,8 +28,6 @@
 
 <br>
 
-![preview.png](assets/preview.png)
 
-![preview2.png](assets/preview2.png)
 
 
