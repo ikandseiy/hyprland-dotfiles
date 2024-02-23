@@ -23,9 +23,11 @@ firefox # Browser
 dunst # Notification
 nautilus # File explorer
 loupe # Image viewer
+mpv # Video player
 ranger # Cli file explorer
 sddm-git # Login manager
-wezterm/kitty # Terminal
+kitty # Terminal
+starship # shell prompt
 waybar # Top Bar
 waybar-updates # Updates notification
 fastfetch # Cli system info
@@ -48,9 +50,7 @@ telegram-desktop # Telegram
 qbittorrent # Torrent client
 duf # Cli disk free space utility
 filelight # qt gui disk space utility
-intel-media-driver # Driver for intel
 htop # Cli monitoring utility
-qping # replacement ping
 eza # replacement ls
   
 ```
