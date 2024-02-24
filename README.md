@@ -20,7 +20,7 @@
 - Notifications: [`Dunst`](https://github.com/dunst-project/dunst)
 - Menu: [`Rofi`](https://github.com/davatorium/rofi)
 - FIle Manager: [`Ranger`](https://github.com/ranger/ranger)
-- Image Viewer: [`Loupe`](https://gitlab.gnome.org/GNOME/loupe)
+- Image Viewer: [`imv`](https://sr.ht/~exec64/imv/)
 - Video Player: [`mpv`](https://github.com/mpv-player/mpv)
 - Editor: [`Neovim`](https://github.com/neovim/neovim)
 - Fetching: [`Fastfetch`](https://github.com/fastfetch-cli/fastfetch)
