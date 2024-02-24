@@ -26,7 +26,7 @@ loupe # Image viewer
 mpv # Video player
 ranger # Cli file explorer
 sddm-git # Login manager
-kitty # Terminal
+wezterm / kitty # Terminal
 starship # shell prompt
 waybar # Top Bar
 waybar-updates # Updates notification
@@ -52,5 +52,13 @@ duf # Cli disk free space utility
 filelight # qt gui disk space utility
 htop # Cli monitoring utility
 eza # replacement ls
-  
+
+  Optional:
+  asusctl # asus utility
+  rog-control-center # control center for asus laptop
+  supergfxctl # addition for control asus
+  nvidia # driver
+  nvidia-utils # NVIDIA drivers utilities
+  nvidia-settings # configuring the NVIDIA graphics driver
+  libva # video Acceleration API for nvidia
 ```
