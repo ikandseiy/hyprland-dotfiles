@@ -1,0 +1,167 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin": "5 10 0",
+  "mod": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+  "height": 20,
+  "modules-left": [
+    "custom/logo",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "network",
+    "bluetooth",
+    "battery",
+    //"backlight",
+    "pulseaudio",
+    //"pulseaudio#microphone",
+    "tray",
+    "custom/pacman"
+  ],
+  "include": [],
+  "hyprland/window": {
+    "format": "{}"
+  },
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": false,
+    "on-click": "activate",
+    "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": []
+    }
+  },
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
+  "custom/logo": {
+      "format": "<span size='x-large'>{icon}</span>", 
+      "format-icons": [""],
+      "tooltip": false,
+      "on-click": "~/.config/rofi/launchers/misc/launcher.sh &"
+  },
+  "clock": {
+      "tooltip-format": "<tt>{calendar}</tt>",
+      "format-alt": "  {:%a, %d %b %Y}",
+      "format": "  {:%I:%M %p}"
+    },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": [
+      "󰃞",
+      "󰃟",
+      "󰃠"
+    ],
+    "on-scroll-up": "~/.config/waybar/scripts/brightness --inc",
+    "on-scroll-down": "~/.config/waybar/scripts/brightness --dec",
+    "min-length": 6
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "interval": 60,
+    "design-capacity": true, 
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ]
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "tooltip": false,
+    "format-muted": " Muted",
+    "on-click": "~/.config/waybar/scripts/volume --toggle",
+    "on-click-right": "pavucontrol",
+    "on-scroll-up": "~/.config/waybar/scripts/volume --inc",
+    "on-scroll-down": "~/.config/waybar/scripts/volume --dec",
+    "scroll-step": 5,
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "pulseaudio#microphone": {
+    "format": "{format_source}",
+    "format-source": " {volume}%",
+    "format-source-muted": " Muted",
+    "on-click": "~/.config/waybar/scripts/volume --toggle-mic",
+    "on-click-right": "pavucontrol",
+    "on-scroll-up": "~/.config/waybar/scripts/volume --mic-inc",
+    "on-scroll-down": "~/.config/waybar/scripts/volume --mic-dec",
+    "scroll-step": 5
+  },
+  "temperature": {
+    "thermal-zone": 1,
+    "format": "{temperatureC}°C ",
+    "critical-threshold": 80,
+    "format-critical": "{temperatureC}°C "
+  },
+  "network": {
+    // "interface": "wlp2*", // (Optional) To force the use of this interface
+    "format-wifi": "  {signalStrength}%",
+    "format-ethernet": "{ipaddr}/{cidr}",
+    "tooltip-format": "{essid} - {ifname} via {gwaddr}",
+    "format-linked": "{ifname} (No IP)",
+    "format-disconnected": "Disconnected ⚠",
+    //"format-alt": "{ifname}:{essid} {ipaddr}/{cidr}",
+    "on-click": "~/.config/rofi/nm-applet/rofi-network-manager.sh"  
+  },
+  "bluetooth": {
+    "format": " {status}",
+    "format-disabled": " off",
+    "format-connected": " {num_connections}",
+    "tooltip-format": "{device_alias}",
+    "tooltip-format-connected": " {device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}",
+    "on-click": "~/.config/waybar/scripts/bluetooth"
+  },
+  "custom/pacman": {
+    "format": "<span size='large'>{icon}</span>{}", 
+    "return-type": "json",
+    "format-icons": {
+      "pending-updates": " ",
+      "updated": ""
+    },
+  "exec-if": "which waybar-updates",
+  "exec": "waybar-updates"
+  }
+
+}
