@@ -31,7 +31,7 @@
 
 ## Overview:
 
-![preview.png](assets/preview.png)
+![preview1.png](assets/preview1.png)
 
 
 ![preview2.png](assets/preview2.png)
