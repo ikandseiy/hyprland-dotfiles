@@ -15,7 +15,7 @@
 - OS: [`Arch Linux`](https://archlinux.org/)
 - Window Manager:[`Hyprland`](https://github.com/hyprwm/Hyprland)
 - Display manager: [`Sddm`](https://github.com/sddm/sddm)
-- Terminal: [`Kitty`](https://github.com/kovidgoyal/kitty)
+- Terminal: [`Wezterm`](https://github.com/wez/wezterm)
 - Status bar: [`Waybar`](https://github.com/Alexays/Waybar)
 - Notifications: [`Dunst`](https://github.com/dunst-project/dunst)
 - Menu: [`Rofi`](https://github.com/davatorium/rofi)
@@ -31,7 +31,7 @@
 
 ## Overview:
 
-![preview1.png](assets/preview1.png)
+
 
 
 ![preview2.png](assets/preview2.png)
