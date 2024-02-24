@@ -16,6 +16,7 @@
 - Window Manager:[`Hyprland`](https://github.com/hyprwm/Hyprland)
 - Display manager: [`Sddm`](https://github.com/sddm/sddm)
 - Terminal: [`Wezterm`](https://github.com/wez/wezterm)
+- Shell Prompt: [`Starship`](https://github.com/starship/starship)
 - Status bar: [`Waybar`](https://github.com/Alexays/Waybar)
 - Notifications: [`Dunst`](https://github.com/dunst-project/dunst)
 - Menu: [`Rofi`](https://github.com/davatorium/rofi)
